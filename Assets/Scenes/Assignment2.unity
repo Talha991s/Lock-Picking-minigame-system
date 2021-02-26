@@ -420,7 +420,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 5.42e-42, y: -1.0949747e-30, z: 4.5905e-41, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -687,6 +687,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door_Hard
       objectReference: {fileID: 0}
+    - target: {fileID: 831346268243460650, guid: a4def91f5b7f7da4c96f284186a0b034,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8a7c55ddf8953994f94083d2022fdfd3, type: 2}
     - target: {fileID: 831346268243460652, guid: a4def91f5b7f7da4c96f284186a0b034,
         type: 3}
       propertyPath: m_CastShadows

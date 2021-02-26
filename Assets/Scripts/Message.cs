@@ -14,7 +14,7 @@ namespace Assignment2
             GUI.skin = guiSkin;
 
             // Some explanation of how to play
-            GUI.Label(labelRect, "Press A/D to move left/right. Click the Left Mouse Button to interact with objects");
+            GUI.Label(labelRect, "Press A/D to move the cam left/right. Click the Left Mouse Button to interact with objects");
         }
     }
 }
